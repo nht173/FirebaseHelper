@@ -1,0 +1,23 @@
+{
+  "name": "FirebaseHelper",
+  "version": "1.0.0",
+  "description": "A helper library for rapid development of IoT devices with data storage on Firebase Realtime Database.",
+  "keywords": ["firebase", "iot", "realtime database", "arduino", "esp32", "esp8266", "cloud", "helper", "device"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nht173/DeviceLib.git"
+  },
+  "authors": [
+    {
+      "name": "Thai Nguyen",
+      "email": "nhthai173@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "Firebase Arduino Client Library for ESP8266 and ESP32": "^4.4.14"
+  },
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "espressif8266"]
+}
